@@ -38,6 +38,8 @@ kramdown:
 nav:
   - name:           "About"
     url:            "/about"
+  - name:           "Professional Services"
+    url:            "/services"
   - name:           "Archive"
     url:            "/archive"
   - name:           "Tags"
