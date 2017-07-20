@@ -37,15 +37,15 @@ kramdown:
 # Navigation
 nav:
   - name:           "About"
-    url:            "/about"
+    url:            "https://philo.wtf/about/"
   - name:           "Professional Services"
-    url:            "/services"
+    url:            "https://philo.wtf/services"
   - name:           "Archive"
-    url:            "/archive"
+    url:            "https://philo.wtf/archive"
   - name:           "Tags"
-    url:            "/tags"
+    url:            "https://philo.wtf/tags"
   - name:	    "Notebooks"
-    url:            "/notebooks"
+    url:            "https://philo.wtf/notebooks"
   - name:           "Github"
     url:            "https://github.com/cgiliberto"
 
