@@ -231,4 +231,4 @@ Finally, let's leave our environment and reboot into it:
 
 Once we've rebooted into our new system, depending on if you chose to install any additional packages beyond what I said here, you'll likely have to manually configure the network, e.g. using `ip link` and `dhcpcd`.
 
-In part 2, I'll discuss kernel hardening with the new (and awesome, seriously check them out) `linux-hardened` kernel and graphics/a DE to work with it, setting up a firewall and a MAC solution (SELinux in my case), jails, and more. Stay tuned!
+In part 2, I'll discuss kernel hardening with the new (and awesome, seriously check them out) `linux-hardened` kernel and graphics/a DE to work with it, setting up a firewall and a MAC solution (SELinux in my case), jails, and more. And in part 3, I'll talk about setting up a StrongSwan-based IPSEC VPN on Arch, as well as additional mitigations like DNSSEC. Stay tuned!
