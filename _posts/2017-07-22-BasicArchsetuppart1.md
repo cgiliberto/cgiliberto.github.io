@@ -1,3 +1,5 @@
+# Basic Security-oriented Arch Setup: Part 1
+
 Hello and welcome to the inaugural post! This is just a quick writeup of my basic Arch linux configuration for those interested in perhaps trying out the distro with an eye towards security. This is just part 1 and does not aim to be comprehensive, and I will share my install scripts and dotfiles down the road.
 
 This is an installation with lvm+luks encryption on 1 physical volume and various hardening features installed/enabled that is still usable as a general purpose desktop.
