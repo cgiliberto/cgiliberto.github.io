@@ -17,7 +17,7 @@ google-analytics:
 
 # URL
 #url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
-url:                "http://cgiliberto.github.io" # use this url when develop
+url:                "https://philo.wtf" # use this url when develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
 
@@ -39,13 +39,13 @@ nav:
   - name:           "About"
     url:            "https://philo.wtf/about/"
   - name:           "Professional Services"
-    url:            "https://philo.wtf/services"
+    url:            "https://philo.wtf/services/"
   - name:           "Archive"
-    url:            "https://philo.wtf/archive"
+    url:            "https://philo.wtf/archive/"
   - name:           "Tags"
-    url:            "https://philo.wtf/tags"
+    url:            "https://philo.wtf/tags/"
   - name:	    "Notebooks"
-    url:            "https://philo.wtf/notebooks"
+    url:            "https://philo.wtf/notebooks/"
   - name:           "Github"
     url:            "https://github.com/cgiliberto"
 
