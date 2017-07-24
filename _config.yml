@@ -17,7 +17,7 @@ google-analytics:
 
 # URL
 #url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
-url:                "https://cgiliberto.github.io" # use this url when develop
+url:                "http://cgiliberto.github.io" # use this url when develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
 
