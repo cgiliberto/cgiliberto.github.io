@@ -3,4 +3,4 @@ title: Professional Services
 permalink: /services/
 ---
 
-Please email christian.giliberto@gmail.com to discuss consulting and penetration testing services. Phone number temporarily unavailable pending change.
+Please email philo@philo.wtf to discuss consulting and penetration testing services. Phone number temporarily unavailable pending change.
