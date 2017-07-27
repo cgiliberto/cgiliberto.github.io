@@ -29,16 +29,16 @@ apt-get -y install isc-dhcp-server dsniff screen nodejs
 
 After running this, just replace the existing `dhcpd.conf` with the one in the repo, reboot, and you're all set. The main functionality, the cookie harvesting, worked perfectly against the target machine, a Mac Mini running fully-patched macOS Sierra.
 
-![alt text](https://github.com/cgiliberto/cgiliberto.github.io/blob/master/images/tapped.png "Optional splash")
+![alt text](https://github.com/cgiliberto/cgiliberto.github.io/blob/master/images/tapped.png?raw=true "Optional splash")
 
 The splash is of course there for testing purposes and can be disabled for a real attack. The harvested cookies are stored locally on the pi, and this functionality worked perfectly.
 
-![alt text](https://github.com/cgiliberto/cgiliberto.github.io/blob/master/images/injectionredacted.png "Stolen cookie")
+![alt text](https://github.com/cgiliberto/cgiliberto.github.io/blob/master/images/injectionredacted.png?raw=true "Stolen cookie")
 
 The backdoor was a little bit more finnicky. In principle, the browser should open a socket to the C2C server whenever the target browses to a poisoned cached domain. However, the sockets would not reliably open at first. They eventually started working with no configuration changes, so I'll have to debug that later. Regardless, the backdoor does indeed work.
 
-![alt text](https://github.com/cgiliberto/cgiliberto.github.io/blob/master/images/BACKDOORredacted.png "socket")
+![alt text](https://github.com/cgiliberto/cgiliberto.github.io/blob/master/images/BACKDOORredacted.png?raw=true "socket")
 
-![alt text](https://github.com/cgiliberto/cgiliberto.github.io/blob/master/images/commandandcontrolredacted.png "C2C")
+![alt text](https://github.com/cgiliberto/cgiliberto.github.io/blob/master/images/commandandcontrolredacted.png?raw=true "C2C")
 
 I intend to play with the backdoor more in the coming days, but even without it the cookie harvesting ability is impressive enough for me to highly recommend this as a fun, easy, cheap project resulting in a tool that is actually useful in local attacks.
